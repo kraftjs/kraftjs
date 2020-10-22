@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/3sum/
 # O(n^2) time complexity
-# O(1) space complexity
+# O(n) space complexity for worst case python sort implementation
 def three_sum(nums):
     def two_sum(array, index, output):
         left, right = index + 1, len(array) - 1
