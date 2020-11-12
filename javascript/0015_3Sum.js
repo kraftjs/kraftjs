@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/3sum/
 // O(n^2) time complexity
-// O(log(n))
+// O(log(n)) space complexity
 function threeSum(nums) {
   function twoSum(idx) {
     let [left, right] = [idx + 1, nums.length - 1];
