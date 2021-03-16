@@ -1,4 +1,14 @@
-### Hi there 👋
+## Books that have guided me along my journey:
+### Technology Specific
+| Title | Author(s) |
+| ----- | --------- |
+| JavaScript: The Definitive Guide | David Flanagan |
+| CSS in Depth | Keith J. Grant |
+
+### Software Engineering
+Title | Author(s)
+----- | ---------
+
 
 <!--
 **kraftjs/kraftjs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
