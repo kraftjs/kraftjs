@@ -1,13 +1,9 @@
-## Books that have guided me along my journey:
-### Technology Specific
-| Title | Author(s) |
-| ----- | --------- |
-| JavaScript: The Definitive Guide | David Flanagan |
-| CSS in Depth | Keith J. Grant |
+### Books that accelerated my growth:
+| Title | Author(s) | Domain |
+| ----- | --------- | ------ |
+| CSS in Depth | Keith J. Grant | CSS |
+| JavaScript: The Definitive Guide | David Flanagan | JavaScript |
 
-### Software Engineering
-Title | Author(s)
------ | ---------
 
 
 <!--
