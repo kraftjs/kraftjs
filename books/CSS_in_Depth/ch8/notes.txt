@@ -1,0 +1,6 @@
+Three principles of responsive design:
+1. A mobile first approach to design.
+2. The @media at-rule.
+3. The use of fluid layouts.
+
+---

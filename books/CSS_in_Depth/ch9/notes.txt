@@ -1,0 +1,5 @@
+Base styles should be fairly generic. Only add styles here that you want
+applied to most or all of the page. There should be no class names or IDs in
+your selectors, so you only target elements by their tag type and the
+occaisional pseudo-class. The idea is that these styles provide the global look
+you want, but are easy to override later when you need to.

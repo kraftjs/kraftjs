@@ -1,0 +1,47 @@
+@use 'variables' as var;
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.tile-row {
+  display: flex;
+}
+
+.tile-row > * {
+  flex: 1;
+}
+
+.tile-row > * + * {
+  margin-left: 1.5625em;
+}
+
+p {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.tile {
+  background-color: var.$white;
+  border-radius: 0.3em;
+  padding: 1.5625em;
+}
+
+.tile > h4 {
+  margin-bottom: 1.5em;
+}
+
+.tag-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tag-list > li {
+  display: inline-block;
+  padding: 0.3rem 0.5rem;
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+  border-radius: 0.2rem;
+  background-color: var.$light-gray;
+}

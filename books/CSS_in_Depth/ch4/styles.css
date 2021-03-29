@@ -1,0 +1,82 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+/* This combination of selectors will create a table display before and after
+the children of the clearfix class. This is important because it will force
+the clearfix element's children to collapse their margins against the pseudo
+selectors and not the element preceding the clearfix element.
+
+Important: Margins don't collapse through table elements, but they do through
+block display elements, so this fix wouldn't work with `display: block`.*/
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: ' ';
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+body {
+  background-color: #eee;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body * + * {
+  margin-top: 1.5em;
+}
+
+header {
+  padding: 1em 1.5em;
+  color: #fff;
+  background-color: #0072b0;
+  border-radius: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 0 1.5em;
+  background-color: #fff;
+  border-radius: 0.5em;
+}
+
+.media {
+  float: left;
+  margin: 0 0 1.5em 0;
+  width: calc(50% - 0.75em);
+  padding: 1.5em;
+  background-color: #eee;
+  border-radius: 0.5em;
+}
+
+.media:nth-child(odd) {
+  clear: left;
+  margin-right: 1.5em;
+}
+
+.media-image {
+  float: left;
+  margin-right: 1.5em;
+}
+
+.media-body {
+  overflow: auto;
+  margin-top: 0;
+}
+
+.media-body h4 {
+  margin-top: 0;
+}

@@ -1,0 +1,42 @@
+@use 'variables' as var;
+
+html {
+  box-sizing: border-box;
+  color: var.$text-color;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  background-color: var.$extra-light-gray;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Georgia, serif;
+}
+
+a {
+  color: var.$medium-green;
+}
+
+a:visited {
+  color: var.$brand-green;
+}
+
+a:hover {
+  color: var.$brand-green;
+}
+
+a:active {
+  color: var.$red;
+}

@@ -1,0 +1,95 @@
+A float pulls an element (often an image) to one side of its container,
+allowing the document flow to wrap around it. A floated element is removed
+from the normal document flow and pulled to the edge of the container. The
+document flow then resumes, but it wraps around the space where the floated
+element resides. If you float multiple elements in the same direction, they'll
+stack alongside one another. (This is the original purpose of floats, though we
+don't always use them this way.)
+
+Though floats have been supplanted by flexbox for styling the structure of a
+page, they are still the only way to move an image to the side of the page and
+allow text to wrap around it. (So you still need to know it.)
+
+---
+
+Use the "double container pattern" to center content on a page. You can achieve
+this by placing your content inside two nested containers and then set margins
+of the inner containere to position it within the outer one.
+
+<body>
+  <div style="max-width: 1080px; margin: 0 auto;">
+    {content}
+  </div>
+</body>
+
+
+By using `max-width: 1080px` instead of `width: 1080px`, the element shrinks to
+below 1080 px if the screen's viewport is smaller than that. That is to say, in
+smaller viewports, the inner container will fill the screen, but on larger
+ones, it will expand to 1080px and be centered. This is important to avoid
+horizontal scrolling on devices.
+
+---
+
+Unlike elements in the normal document flow, floated elements do not add height
+to their parent elements. Floats are intended to allow text to wrap around 
+them. When you float an image inside a paragraph, the paragraph does not grow
+to contain the image. This means that if an image is taller than the text of
+the paragraph the next paragraph will start immediately below the text of the
+first, and the text in both paragraphs will wrap around the float.
+
+The `clear: both` declaration prevents an element from wrapping around elements
+that precede it. Adding content with the clear declaration beneath floats will
+force the containing container to grow in height to accommodate the added
+element. (Remember, containers won't grow to accommodate floated elements, so
+we need to add an element with the style `clear: both;` to force the container
+to encompass the floats.)
+
+The pseudo element ::after is a useful strategy for this. Instead of having to
+add a div to the html that clutters the tags and is only present for styling,
+we can use the ::after selector to insert an element with css to the DOM that
+has the style `clear: both;`. (Remember that ::after elements are inline, so
+be sure to change the display to block so that the clear property works.)
+
+---
+
+Our 4 boxes don't float correctly because the first two boxes, while positioned
+correctly in a row, don't have the same height. Because box 2 is shorter than
+box 1, there's room for box 3 beneath it. The browser places floats as high as 
+possible, so instead of clearing box 1, box 3 "catches" on it. Basically, it
+doesn't float all the way to the left edge, but rather floats agains the bottom
+right corner of box 1.
+
+The fix for this is simple; the third float needs to clear the floats above it.
+More generally, the first element of each row needs to clear the float above
+it.
+
+---
+
+A "Block Formatting Context" is a region of the page in which elements are laid
+out. A block formatting context itself is a part of the surrounding document
+flow, but it isolates its contents from the outside context. This isolation
+does three things for the element that establishes the BFC.
+
+1. It contains the top and bottom margins of all elements within it. They won't
+   collapse with margins of elements outside of the block formatting context.
+2. It contains all floated elements within it.
+3. It doesn't overlap with floated elements outside the BFC.
+
+You can establish a Block Formatting Context in several ways. Applying any of
+the following property values to an element triggers one.
+- float: left or float: right (anything but none)
+- overflow: hidden, auto, or scroll (anything but visible)
+- display: inline-block, table-cell, table-caption, flex, inline-flex, grid,
+  or inline-grid (these are called block containers)
+- position: absolute or position: fixed
+
+Using overflow: auto is generally the simplest approach.
+
+---
+
+Grid System - a series of class names you can add to your markup to structure
+portions of the page into rows and columns. It should provide no visual styles,
+like colors or borders, to the page--it should only set widths and position
+containers. Inside each of these containers, you can add new elements to style
+however you want.

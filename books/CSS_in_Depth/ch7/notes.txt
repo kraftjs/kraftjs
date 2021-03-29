@@ -1,0 +1,9 @@
+Summary:
+1) Use fixed position for modal dialogs.
+2) Use absolute positioning for dropdown menus, tooltips, and other dynamic
+   interaction.
+3) Be aware of accessibility concerns when building these features.
+4) There are two gotchas of z-index: it only works on positioned elements and
+   using it creates a new stacking context.
+5) Sticky positioning is new and combines fixed and relative positioning. Keep
+   an eye out for better browser support.

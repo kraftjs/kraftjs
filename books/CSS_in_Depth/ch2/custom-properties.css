@@ -1,0 +1,35 @@
+/* Note: any declaration using var() for custom properties will be ignored by
+ * browsers that don't understand it. Provide fallback behaviour when possible
+ * tag {
+ *   color: black;
+ *   color: var(--main-color);
+ */
+
+:root {
+  --main-bg: #fff;
+  --main-color: #000;
+}
+
+.dark {
+  margin-top: 2em;
+  padding: 1em;
+  background-color: #999;
+  --main-bg: #333;
+  --main-color: #fff;
+}
+
+.panel {
+  font-size: 1rem;
+  padding: 1em;
+  border: 1px solid #999;
+  border-radius: 0.5em;
+  background-color: var(--main-bg);
+  color: var(--main-color);
+}
+
+.panel > h2 {
+  margin-top: 0;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+}

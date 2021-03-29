@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="custom-properties.css" />
+  <title>Custom Properties, CSS</title>
+</head>
+<body>
+  <div class="panel">
+    <h2>Single-origin</h2>
+    <div class="body">
+      We have built partnerships with small farms around the world to
+      hand-select beans at the peak of season. We then careful roast in small
+      batches to maximize their potential.
+    </div>
+  </div>
+
+  <aside class="dark">
+    <div class="panel">
+      <h2>Single-origin</h2>
+      <div class="body">
+        We have built partnerships with small farms around the world to
+        hand-select beans at the peak of season. We then careful roast in small
+        batches to maximize their potential.
+      </div>
+    </div>
+  </aside>
+</body>
+<script>
+  var rootElement = document.documentElement;
+  var styles = getComputedStyle(rootElement);
+  var mainColor = styles.getPropertyValue('--main-bg');
+  console.log(String(mainColor).trim());
+
+  var rootElement = document.documentElement;
+  rootElement.style.setProperty('--main-bg', '#cdf');
+</script>

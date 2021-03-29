@@ -1,0 +1,15 @@
+Inherited properties (not comprehensive, but nearly):
+color, font, font-family, font-size,
+font-weight, font-variant, font-style,
+line-height, letter-spacing, text-align, text-indent,
+text-transform, white-space, word-spacing, list-style,
+list-style-type, list-style-position, list-style-image,
+border-collapse, and border-spacing.
+
+
+Summary:
+- Keep selector specificity under control.
+- Don't confuse cascade with inheritance.
+- Some properties are inherited, i.e. text, lists, and table borders.
+- Don't confuse 'initial' aand 'auto' values.
+- Stay out of TRouBLe with shorthand properties.

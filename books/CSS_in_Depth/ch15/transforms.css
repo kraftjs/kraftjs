@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+  justify-content: center;
+  perspective: 200px;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 150px;
+  margin: 0 2em;
+  padding: 60px 0;
+  text-align: center;
+  background-color: hsl(150, 50%, 40%);
+  transform: rotateX(30deg);
+}

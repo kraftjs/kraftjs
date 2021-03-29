@@ -1,0 +1,61 @@
+The default box model specifies the height and width of an element's content;
+any padding, border, and margin are then added to that width. CSS allows you
+to adjust the box model behaviour with the `box-sizing` property.
+
+Recommendation: Add this border-box fix to the beginning of every project.
+
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+---
+Typically, it's best to avoid setting explicit heights on elements. Normal
+document flow is designed to work with a constrained width and an unlimited
+height.
+
+Normal document flow:
+- Inline elements flow along with the text of the page, from left to right,
+  line wrapping when they reach the edge of their container.
+- Block-level elements fall on individual lines, with a line break above and
+  below.
+
+When you explicitly set an element's height, you run the risk of its contents
+overflowing the container. Document flow doesn't account for overflow, and any
+content below the container will render over the top of the overflowing content
+
+The overflow property can control this behavior and supports four values.
+
+---
+For percentage-based heights to work, the parent must have an explicitly
+defined height.
+
+By default an element with a table display value won't expand to 100% width
+like a block element will, so you'll have to declare it explicitly.
+
+Note: margins cannot be applied to table-cell elements. To defined the space
+between cells of a table, use the border-spacing property.
+
+---
+Negative margin behavior depends on which side of the element you apply it to.
+If applied to the top or left, the negative margin moves the element upward or
+leftward, respectively. If applied to the right or bottom side, a negative
+margin doesn't shift the element; instead, it pulls in any suceeding elements.
+
+---
+Margin collapsing only occurs with top and bottom margins. Left and right
+margins don't collapse.
+
+
+SUMMARY:
+- Always use a universal border-box fix for predictable element sizing.
+- Avoid explicitly setting the height of an element to avoid overflow issues.
+- Use modern layout techniques like `display: table;` or flexbox to produce
+  columns of equal height or to vertically center content.
+- Consider using the lobotomized owl selector on your page to globally apply
+  margins between stacked elements.

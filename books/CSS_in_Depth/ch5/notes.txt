@@ -1,0 +1,9 @@
+Applying `display: flex` to an element turns it into a flex container, and its
+children turn into flex items. By default, flex items align side by side, left
+to right, all in one row. The flex container fills the available width like a
+block element, but the flex items may not necessarily fill the width of their
+flex container. The flex items are all the same height, determined naturally by
+their contents.
+
+The flex property controls the size of the flex items along the main axis (that
+is the width). 

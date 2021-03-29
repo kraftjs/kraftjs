@@ -1,0 +1,31 @@
+absolute units: px, mm, cm, in, pt, pc
+relative units: em, rem, vh, vw, vmin, vmax
+
+CSS has to accomadate browser windows of many different sizes, and CSS has to
+adjust. Responsive design is the solution.
+
+In CSS 1 em means the font size of the current element. They can be convenient
+when setting properties like padding, height, width, or border-radius. If ems
+are defined by the current element's font size, then what happens if you dec-
+lare `font-size: 1.2em;` A font size can't equal 1.2 times itself; instead,
+font-size ems are derived from the inherited font size.
+
+* It's helpful to know that, for most browsers, the default font size is 16px.
+
+The browser first calculates an elements font-size before using it to calculate
+other relative values.
+
+---
+
+Ems are nice for padding, margins, and element sizing, but when it comes to
+font size, they can get complicated. Thankfully, there is a better option--rems.
+
+Rem is short for root em. Instead of being relative to the current element, rems
+are relative to the root telement. No matter where you apply it in the document,
+1.2 rem has the same computed value: 1.2 times the font size of the root element.
+
+---
+
+Viewport-relative units define lengths relative to the browser's viewport--the
+framed area in the browser window where the web page is visible, excluding the
+browser's address bar, toolbars, and status bar.
