@@ -1,0 +1,29 @@
+Definitions:
+
+Entity - Something of interest to the database's users. Examples include
+customers, parts, geographic locations, etc.
+
+Column - An individual piece of data stored in a table.
+
+Row - A set of columns that together completely describe an entity or some
+action on an entity. Also called a Record.
+
+Table - A set of rows, held either in memory (non-persistent) or on permanent
+storage (persistent).
+
+Result Set - Another name for a non-persistent table, generally the result of
+an SQL query.
+
+Primary Key - One or more columns that can be used as a unique identifier for
+each row in a table.
+
+Foreign Key - One or more columns that can be used together to identify a
+single row in another table.
+
+
+
+Keywords:
+
+SELECT	/* one or more things */
+FROM	/* one or more places */
+WHERE	/* one or more conditions apply */			

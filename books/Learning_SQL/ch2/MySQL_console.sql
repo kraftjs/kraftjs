@@ -61,7 +61,7 @@ ORDER BY food;
 
 INSERT INTO person
 (person_id, first_name, last_name, eye_color, birth_date, street, city, state, country, postal_code)
-VALUES (null, 'Susan', 'Smith', 'BL', '1975-11-02', '23 Maple St.', 'Arlington', 'VA', 'USA', '20220')
+VALUES (null, 'Susan', 'Smith', 'BL', '1975-11-02', '23 Maple St.', 'Arlington', 'VA', 'USA', '20220');
 
 SELECT person_id, first_name, last_name, eye_color, birth_date
 FROM person;
