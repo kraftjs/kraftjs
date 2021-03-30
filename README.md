@@ -1,8 +1,15 @@
 ### Books that accelerated my growth:
-| Title | Author(s) | Domain |
-| ----- | --------- | ------ |
-| CSS in Depth | Keith J. Grant | CSS |
-| JavaScript: The Definitive Guide | David Flanagan | JavaScript |
+| Title | Author(s) | Domain | Completed |
+| ----- | --------- | ------ | :----: |
+| CSS in Depth | Keith J. Grant | CSS | &check; |
+| JavaScript: The Definitive Guide | David Flanagan | JavaScript | &check; |
+| Testing JavaScript Applications | Lucas da Costa | JavaScript | - |
+| TypeScript Quickly | Yakov Fain, Anton Moiseev | TypeScript | - |
+| Programming with Types | Vlad Riscutia | TypeScript | - |
+| Web Development with Node and Express | Ethan Brown | Web Dev | - |
+| Learning SQL | Alan Beaulieu | SQL | - |
+| SQL Cookbook | Anthony Molinaro, Robert de Graaf | SQL | - |
+| AWS Cookbook | John Culkin, Mike Zazon, James Ferguson | AWS | - |
 
 
 
