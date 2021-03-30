@@ -1,0 +1,13 @@
+Definitions:
+
+The SELECT clause determines which of all possible columns should be included
+in the query's result set.
+
+The FROM clause defines the tables used by a query, along with the means of
+linking the tables together.
+
+The WHERE clause is the mechanism for filtering out unwanted rows from your
+result set.
+
+The ORDER BY clause is the mechanism for sorting your result set using either
+raw column data or expressions based on column data.
