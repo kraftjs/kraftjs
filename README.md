@@ -3,11 +3,11 @@
 | ----- | --------- | ------ | :----: |
 | CSS in Depth | Keith J. Grant | CSS | &check; |
 | JavaScript: The Definitive Guide | David Flanagan | JavaScript | &check; |
-| Testing JavaScript Applications | Lucas da Costa | JavaScript | - |
-| TypeScript Quickly | Yakov Fain, Anton Moiseev | TypeScript | - |
-| Programming with Types | Vlad Riscutia | TypeScript | - |
-| Web Development with Node and Express | Ethan Brown | Web Dev | - |
-| Learning SQL | Alan Beaulieu | SQL | - |
+| Testing JavaScript Applications | Lucas da Costa | JavaScript | 1 / 13 |
+| TypeScript Quickly | Yakov Fain, Anton Moiseev | TypeScript | 2 / 16 |
+| Programming with Types | Vlad Riscutia | TypeScript | 1 / 11 |
+| Web Development with Node and Express | Ethan Brown | Web Dev | 2 / 23 |
+| Learning SQL | Alan Beaulieu | SQL | 3 / 18 |
 | SQL Cookbook | Anthony Molinaro, Robert de Graaf | SQL | - |
 | AWS Cookbook | John Culkin, Mike Zazon, James Ferguson | AWS | - |
 
