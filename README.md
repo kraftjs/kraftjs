@@ -2,16 +2,16 @@
 | Title | Author(s) | Domain | Completed |
 | ----- | --------- | ------ | :----: |
 | API Design Patterns | JJ Geewax | Web APIs | - |
-| AWS Cookbook | J. Culkin, M. Zazon, J. Ferguson | AWS | - |
+| AWS Cookbook | Culkin, Zazon, Ferguson | AWS | - |
 | Bootstrapping Microservices with Docker, Kubernetes, and Terraform | Ashley Davis | Microservices | - |
 | CSS in Depth | Keith J. Grant | CSS | &check; |
-| Designing Web APIs | B. Jin, S. Sahni, A. Shevat | Web APIs | - |
+| Designing Web APIs | Jin, Sahni, Shevat | Web APIs | - |
 | Distributed Systems with Node.js | Thomas Hunter | Node.js | - |
 | JavaScript: The Definitive Guide | David Flanagan | JavaScript | &check; |
 | Learning SQL | Alan Beaulieu | SQL | 3 / 18 |
 | Micro Frontends in Action | Michael Geers | Frontend Web Development | - |
 | Programming with Types | Vlad Riscutia | TypeScript | 1 / 11 |
-| SQL Cookbook | Anthony Molinaro, Robert de Graaf | SQL | - |
+| SQL Cookbook | Molinaro, Graaf | SQL | - |
 | Testing JavaScript Applications | Lucas da Costa | Testing | 1 / 13 |
 | The Design of Web APIs | Arnaud Lauret | Web APIs | - |
 | TypeScript Quickly | Yakov Fain, Anton Moiseev | TypeScript | 3 / 16 |
