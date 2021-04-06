@@ -14,7 +14,7 @@
 | SQL Cookbook | Molinaro, Graaf | SQL | - |
 | Testing JavaScript Applications | Lucas da Costa | Testing | 1 / 13 |
 | The Design of Web APIs | Arnaud Lauret | Web APIs | - |
-| TypeScript Quickly | Yakov Fain, Anton Moiseev | TypeScript | 3 / 16 |
+| TypeScript Quickly | Fain, Moiseev | TypeScript | 3 / 16 |
 | Web Components in Action | Benjamin Farrell | Web Components | - |
 | Web Development with Node and Express | Ethan Brown | Express.js | 2 / 23 |
 
