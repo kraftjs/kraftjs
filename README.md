@@ -9,7 +9,7 @@
 | Distributed Systems with Node.js | Thomas Hunter | Node.js | - |
 | JavaScript: The Definitive Guide | David Flanagan | JavaScript | &check; |
 | Learning SQL | Alan Beaulieu | SQL | 3 / 18 |
-| Micro Frontends in Action | Michael Geers | Frontend Web Development | - |
+| Micro Frontends in Action | Michael Geers | Frontend | - |
 | Programming with Types | Vlad Riscutia | TypeScript | 1 / 11 |
 | SQL Cookbook | Molinaro, Graaf | SQL | - |
 | Testing JavaScript Applications | Lucas da Costa | Testing | 1 / 13 |
