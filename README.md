@@ -1,15 +1,21 @@
-### Books that accelerated my growth:
+### Relevant Books:
 | Title | Author(s) | Domain | Completed |
 | ----- | --------- | ------ | :----: |
-| CSS in Depth | Keith J. Grant | CSS | &check; |
-| JavaScript: The Definitive Guide | David Flanagan | JavaScript | &check; |
-| Testing JavaScript Applications | Lucas da Costa | JavaScript | 1 / 13 |
-| TypeScript Quickly | Yakov Fain, Anton Moiseev | TypeScript | 2 / 16 |
-| Programming with Types | Vlad Riscutia | TypeScript | 1 / 11 |
-| Web Development with Node and Express | Ethan Brown | Web Dev | 2 / 23 |
-| Learning SQL | Alan Beaulieu | SQL | 3 / 18 |
-| SQL Cookbook | Anthony Molinaro, Robert de Graaf | SQL | - |
 | AWS Cookbook | John Culkin, Mike Zazon, James Ferguson | AWS | - |
+| Bootstrapping Microservices with Docker, Kubernetes, and Terraform | Ashley Davis | Microservices | - |
+| CSS in Depth | Keith J. Grant | CSS | &check; |
+| Distributed Systems with Node.js | Thomas Hunter | Node.js | - |
+| JavaScript: The Definitive Guide | David Flanagan | JavaScript | &check; |
+| Learning SQL | Alan Beaulieu | SQL | 3 / 18 |
+| Micro Frontends in Action | Michael Geers | Frontend Web Development | - |
+| Programming with Types | Vlad Riscutia | TypeScript | 1 / 11 |
+| SQL Cookbook | Anthony Molinaro, Robert de Graaf | SQL | - |
+| Testing JavaScript Applications | Lucas da Costa | Testing | 1 / 13 |
+| TypeScript Quickly | Yakov Fain, Anton Moiseev | TypeScript | 3 / 16 |
+| Web Components in Action | Benjamin Farrell | Web Components | - |
+| Web Development with Node and Express | Ethan Brown | Express.js | 2 / 23 |
+
+
 
 
 
