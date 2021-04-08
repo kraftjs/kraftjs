@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "./dist",
+    "target": "ES5",
+    "module": "ES6",
+    "lib": [
+      // Use type definitions for the browser's DOM API
+      "DOM",
+      // Use type definitions supported by ES2018
+      "ES2018"
+    ]
+  }
+}
