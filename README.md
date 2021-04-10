@@ -1,5 +1,5 @@
 ### Relevant Books:
-| Title | Author(s) | Domain | Completed |
+| Title | Author(s) | Domain | Progress |
 | ----- | --------- | ------ | :----: |
 | API Design Patterns | JJ Geewax | Web APIs | - |
 | AWS Cookbook | Culkin, Zazon, Ferguson | AWS | - |
@@ -14,7 +14,7 @@
 | SQL Cookbook | Molinaro, Graaf | SQL | - |
 | Testing JavaScript Applications | Lucas da Costa | Testing | 1 / 13 |
 | The Design of Web APIs | Arnaud Lauret | Web APIs | - |
-| TypeScript Quickly | Fain, Moiseev | TypeScript | 4 / 16 |
+| TypeScript Quickly | Fain, Moiseev | TypeScript | 10 / 16 |
 | Web Components in Action | Benjamin Farrell | Web Components | - |
 | Web Development with Node and Express | Ethan Brown | Express.js | 2 / 23 |
 
