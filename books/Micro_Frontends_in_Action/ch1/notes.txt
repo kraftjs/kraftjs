@@ -1,0 +1,11 @@
+Micro Frontends:
+Vertically arranged teams; each system is autonomous, which means it can 
+function even when the neighboring systems are down. Every system has its own
+data store to achieve this. Additionally, it doesn’t rely on synchronous calls 
+to other systems to answer a request.
+
+Every team should have a descriptive name and a clear user-focused mission.
+
+Teams are independent and free to choose frameworks and libraries that align
+with their goals. They don't share code and can update their dependencies.
+
