@@ -5,7 +5,7 @@
 | CSS in Depth | Keith J. Grant | CSS | &check; |
 | TypeScript Quickly | Fain, Moiseev | TypeScript | &check; |
 | Learning SQL | Alan Beaulieu | SQL | 3 / 18 |
-| Web Development with Node and Express | Ethan Brown | Express.js | 2 / 23 |
+| Web Development with Node and Express | Ethan Brown | Express.js | 3 / 23 |
 | Testing JavaScript Applications | Lucas da Costa | Testing | 1 / 13 |
 | Programming with Types | Vlad Riscutia | TypeScript | 1 / 11 |
 | API Design Patterns | JJ Geewax | Web APIs | - |
