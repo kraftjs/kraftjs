@@ -1,0 +1,12 @@
+End-to-end tests validate the application from the user's perspective.
+Integration tests validate how different pieces of software work together.
+Unit tests validate functions.
+
+Tests follow the pattern: setup, execution, verification OR arrange, act, assert.
+
+Integration tests help you ensure that the different parts of your software can 
+work together. For example, they help you validate whether your software 
+communicates appropriately with third-party RESTful APIs, or whether it can 
+manipulate items in a database.
+
+You want tests to fail only when a function's observable behavior changes.
