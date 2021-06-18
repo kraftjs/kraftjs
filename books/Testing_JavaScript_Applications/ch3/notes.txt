@@ -1,0 +1,92 @@
+To create different groups of tests within a file, you can nest them within a
+describe block. Use Jest’s describe blocks to keep helper functions within the
+scope of a single group of tests.
+
+I you want to apply a specific setup routine to a few tests in a file, but not
+to all of them, you can group those tests and write your beforeEach hook within
+the describe block for those tests.
+
+By default, hooks that are outside of any describe blocks apply to the whole
+scope of a test file. Jest executes hooks from the outermost to the innermost
+block.
+
+Testing should follow the protocol: Arrange, Act, Assert.
+
+The fewer assertions per test you have, the more granular the feedback, and the
+less time it takes for you to identify defects.
+
+Jest will parallelize tests that are in different files. Parallellizing tests
+can be beneficial if they are well isolated, but it can be problematic if they
+share data. If you can’t isolate your tests, make them run sequentially by
+passing Jest the runInBand option.
+
+In case you have tests that can run simultaneously within a test suite, you can
+use test.concurrent to indicate which ones Jest should execute concurrently. To
+control how many tests run at a time, you can use the --maxConcurrencyOption
+and specify how many tests Jest can run simultaneously. To manage the number of
+worker threads spawned to run tests, you can use the --maxWorkers option and
+specify how many threads to spawn.
+
+Parallelizing tests can dramatically speed up execution time. And, because
+tests that run fast incentivize you to run them more often, I highly recommend
+you to adopt this approach. Its only downside is that you must be careful to
+make sure that tests are well isolated.
+
+-------------------------------------------------------------------------------
+
+A code is said to be deterministic when, given the same input, it always
+produces the same output.
+
+The jest-extended module extends Jest’s assertions, providing you with even
+better and more flexible checks.
+
+-------------------------------------------------------------------------------
+
+|Spies| record data related to the usage of a function without interfering in
+        its implementation.
+
+|Stubs| record data associated with the usage of a function and change its
+        behavior, either by providing an alternative implementation or return
+        value.
+
+|Mocks| change a function's behavior, but instead of just recording information
+        about its usage, they have expectations preprogrammed.
+
+
+mockClear erases a test double’s records but keeps the double in place.
+
+mockReset erases a test double’s records and any canned behavior but keeps the
+double in place.
+
+mockRestore completely removes the double, restoring the original implementation.
+
+-------------------------------------------------------------------------------
+
+Test for code coverage with the following:
+npm run test -- --coverage
+
+|Statement coverage| considers the total number of statements in your code and
+                     how many of them run.
+
+|Branch coverage|    considers how many execution paths your tests have gone
+                     through considering the total number of paths that could’ve
+                     been taken. (Most important)
+
+|Function coverage|  considers how many functions run out of the total number of
+                     functions your code contains.
+
+|Line coverage|      considers how many lines of code your tests execute,
+                     regardless of how many statements they contain or in which
+                     execution paths these lines are.
+
+Without making the necessary observations by writing assertions, you may have a
+high coverage but not catch any bugs.
+
+Coverage represents how much of your code your tests cover, not how many of the
+possible inputs it passes. You can’t guarantee you will find bugs unless you
+test all possible inputs.
+
+The only guarantee code coverage gives you is that your program can run, not
+that it runs correctly.
+
+Code coverage on its own is a bad metric.
