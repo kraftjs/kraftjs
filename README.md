@@ -25,6 +25,8 @@
 <details>
   <summary>Click to toggle!</summary>
   
+  ##### Visit solutions by clicking checkmarks.
+  
 | # | Title | Difficulty | Java | Python | JavaScript |
 | :-: | ----- | :--------: | :--: | :----: | :--------: |
 | 1 | Two Sum | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0001_two_sum.py) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0001_two_sum.js) |
