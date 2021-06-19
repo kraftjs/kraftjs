@@ -23,7 +23,7 @@
 
 ## LeetCode Solutions:
 <details>
-  <summary>Click to toggle view!</summary>
+  <summary>Click to toggle!</summary>
   
 | # | Title | Difficulty | Java | Python | JavaScript |
 | :-: | ----- | :--------: | :--: | :----: | :--------: |
