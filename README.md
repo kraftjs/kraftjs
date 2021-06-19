@@ -1,4 +1,4 @@
-### Reading List:
+## Reading List:
 | Title | Author(s) | Domain | Progress |
 | ----- | --------- | ------ | :----: |
 | JavaScript: The Definitive Guide | David Flanagan | JavaScript | &check; |
@@ -19,11 +19,12 @@
 | SQL Cookbook | Molinaro, Graaf | SQL | - |
 | The Design of Web APIs | Arnaud Lauret | Web APIs | - |
 | Web Components in Action | Benjamin Farrell | Web Components | - |
-
-| # | Title | Difficulty | - | [&check;]() | - |
 -->
 
-### LeetCode Solutions:
+## LeetCode Solutions:
+<details>
+  <summary>Click to toggle view!</summary>
+  
 | # | Title | Difficulty | Java | Python | JavaScript |
 | :-: | ----- | :--------: | :--: | :----: | :--------: |
 | 1 | Two Sum | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0001_two_sum.py) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0001_two_sum.js) |
@@ -65,6 +66,12 @@
 | 1295 | Find Numbers with Even Number of Digits | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/1295_find_numbers_with_even_numbers_of_digits.py) | - |
 | 1299 | Replace Elements with Greatest Element on Right Side | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/1299_replace_elements_with_greatest_element_on_right_side.py) | - |
 | 1342 | Number of Steps to Reduce a Number to Zero | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/1342_number_of_steps_to_reduce_a_number_to_zero.py) | - |
+
+<!--
+| # | Title | Difficulty | - | [&check;]() | - |
+-->
+
+</details>
 
 
 <!--
