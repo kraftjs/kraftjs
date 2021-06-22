@@ -1,0 +1,3 @@
+A smart strategy to get earlier and more granular feedback from your tests is
+to move the code within your routes to separate modules so that you can expose
+their functions and write tests individually.
