@@ -1,3 +1,11 @@
 A smart strategy to get earlier and more granular feedback from your tests is
 to move the code within your routes to separate modules so that you can expose
 their functions and write tests individually.
+
+To run tests sequentially, you can either update your test script in package.json 
+to include the --runInBand option or you can pass it directly to npm test, like 
+this: npm test -- --runInBand
+
+Before you can start using the database, you need to create tables for the carts,
+users, and the inventory. To do that, create a migration by running 
+`./node_modules/.bin/knex migrate:make --env development initial_schema`

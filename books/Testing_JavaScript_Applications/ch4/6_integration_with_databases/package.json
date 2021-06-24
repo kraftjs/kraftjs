@@ -1,0 +1,23 @@
+{
+  "name": "integration_with_databases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "knex": "node --require dotenv/config ./node_modules/.bin/knex",
+    "migrate": "knex migrate:latest",
+    "unmigrate": "knex migrate:rollback"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "knex": "^0.95.6",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.5",
+    "supertest": "^6.1.3"
+  }
+}
