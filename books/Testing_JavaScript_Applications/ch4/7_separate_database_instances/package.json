@@ -1,0 +1,29 @@
+{
+  "name": "7_separate_database_instances",
+  "version": "1.0.0",
+  "description": "",
+  "main": "authenticationController.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "start": "node server.js",
+    "migrate": "npm run migrate:test & npm run migrate:dev",
+    "migrate:test": "knex migrate:latest --env test",
+    "migrate:dev": "knex migrate:latest --env development",
+    "unmigrate": "npm run unmigrate:test & npm run unmigrate:dev",
+    "unmigrate:test": "knex migrate:rollback --env test",
+    "unmigrate:dev": "knex migrate:rollback --env development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "knex": "^0.95.6",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.5",
+    "supertest": "^6.1.3"
+  }
+}
