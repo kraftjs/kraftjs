@@ -1,0 +1,12 @@
+{
+  "name": "resource_pools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "countModule.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.0.5"
+  }
+}
