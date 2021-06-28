@@ -4,7 +4,7 @@
 | JavaScript: The Definitive Guide | David Flanagan | JavaScript | &check; |
 | CSS in Depth | Keith J. Grant | CSS | &check; |
 | TypeScript Quickly | Fain, Moiseev | TypeScript | &check; |
-| Testing JavaScript Applications | Lucas da Costa | Testing | 3 / 13 |
+| Testing JavaScript Applications | Lucas da Costa | Testing | 5 / 13 |
 | Learning SQL | Alan Beaulieu | SQL | 3 / 18 |
 | Web Development with Node and Express | Ethan Brown | Express.js | 3 / 23 |
 | Programming with Types | Vlad Riscutia | TypeScript | 1 / 11 |
