@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/max-consecutive-ones/
 // O(n) time complexity
 // O(1) space complexity
-class Solution {
+class Solution_0485 {
   public int findMaxConsecutiveOnes(int[] nums) {
     int currentSubarrayLength = 0;
     int maxSubarrayLength = 0;
