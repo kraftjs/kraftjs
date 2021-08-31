@@ -1,16 +1,16 @@
+
+### Reading List:
+| Title | Author(s) | Domain |
+| ----- | --------- | ------ |
+| JavaScript: The Definitive Guide | David Flanagan | JavaScript |
+| CSS in Depth | Keith J. Grant | CSS |
+| TypeScript Quickly | Fain, Moiseev | TypeScript |
+| Testing JavaScript Applications | Lucas da Costa | Testing |
+| Learning SQL | Alan Beaulieu | SQL |
+| Web Development with Node and Express | Ethan Brown | Express.js |
+| Programming with Types | Vlad Riscutia | TypeScript |
+
 <!--
-## Reading List:
-| Title | Author(s) | Domain | Progress |
-| ----- | --------- | ------ | :----: |
-| JavaScript: The Definitive Guide | David Flanagan | JavaScript | &check; |
-| CSS in Depth | Keith J. Grant | CSS | &check; |
-| TypeScript Quickly | Fain, Moiseev | TypeScript | &check; |
-| Testing JavaScript Applications | Lucas da Costa | Testing | 5 / 13 |
-| Learning SQL | Alan Beaulieu | SQL | 3 / 18 |
-| Web Development with Node and Express | Ethan Brown | Express.js | 3 / 23 |
-| Programming with Types | Vlad Riscutia | TypeScript | 1 / 11 |
-
-
 | API Design Patterns | JJ Geewax | Web APIs | - |
 | AWS Cookbook | Culkin, Zazon, Ferguson | AWS | - |
 | Bootstrapping Microservices with Docker, Kubernetes, and Terraform | Ashley Davis | Microservices | - |
@@ -22,9 +22,9 @@
 | Web Components in Action | Benjamin Farrell | Web Components | - |
 -->
 
-## LeetCode Solutions:
-<details open>
-  <summary>Click to toggle!</summary>
+### LeetCode Solutions:
+<details>
+  <summary>Toggle Solutions</summary>
   
   ##### Visit solutions by clicking checkmarks.
   
