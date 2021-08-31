@@ -3,12 +3,12 @@
 | Title | Author(s) | Domain |
 | ----- | --------- | ------ |
 | JavaScript: The Definitive Guide | David Flanagan | JavaScript |
-| CSS in Depth | Keith J. Grant | CSS |
 | TypeScript Quickly | Fain, Moiseev | TypeScript |
+| Programming with Types | Vlad Riscutia | TypeScript |
 | Testing JavaScript Applications | Lucas da Costa | Testing |
 | Learning SQL | Alan Beaulieu | SQL |
+| CSS in Depth | Keith J. Grant | CSS |
 | Web Development with Node and Express | Ethan Brown | Express.js |
-| Programming with Types | Vlad Riscutia | TypeScript |
 
 <!--
 | API Design Patterns | JJ Geewax | Web APIs | - |
