@@ -1,13 +1,17 @@
-## Reading List:
-| Title | Author(s) | Domain | Progress |
-| ----- | --------- | ------ | :----: |
-| JavaScript: The Definitive Guide | David Flanagan | JavaScript | &check; |
-| CSS in Depth | Keith J. Grant | CSS | &check; |
-| TypeScript Quickly | Fain, Moiseev | TypeScript | &check; |
-| Testing JavaScript Applications | Lucas da Costa | Testing | 5 / 13 |
-| Learning SQL | Alan Beaulieu | SQL | 3 / 18 |
-| Web Development with Node and Express | Ethan Brown | Express.js | 3 / 23 |
-| Programming with Types | Vlad Riscutia | TypeScript | 1 / 11 |
+
+### Reading List:
+| Title | Author(s) | Domain |
+| ----- | --------- | ------ |
+| Algorithms Unlocked | Thomas Cormen | Data Structures | - |
+| The Algorithm Design Manual | Steven S. Skiena | Data Structures | - |
+| JavaScript: The Definitive Guide | David Flanagan | JavaScript |
+| TypeScript Quickly | Fain, Moiseev | TypeScript |
+| Programming with Types | Vlad Riscutia | TypeScript |
+| Testing JavaScript Applications | Lucas da Costa | Testing |
+| Learning SQL | Alan Beaulieu | SQL |
+| CSS in Depth | Keith J. Grant | CSS |
+| Web Development with Node and Express | Ethan Brown | Express.js |
+| Web Scalability for Startup Engineers | Artur Ejsmont | System Design |
 
 <!--
 | API Design Patterns | JJ Geewax | Web APIs | - |
@@ -21,9 +25,9 @@
 | Web Components in Action | Benjamin Farrell | Web Components | - |
 -->
 
-## LeetCode Solutions:
+### LeetCode Solutions:
 <details>
-  <summary>Click to toggle!</summary>
+  <summary>Toggle Solutions</summary>
   
   ##### Visit solutions by clicking checkmarks.
   
@@ -60,17 +64,18 @@
 | 136 | Single Number | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0136_single_number.py) | - |
 | 206 | Reverse Linked List | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0206_reverse_linked_list.py) | - |
 | 476 | Number Complement | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0476_number_complement.py) | - |
+| 485 | Max Consecutive Ones | Easy | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/java/0485_max_consecutive_ones.java) | - | - |
 | 771 | Jewels and Stones | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0771_jewels_and_stones.py) | - |
 | 832 | Flipping an Image | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0832_flipping_an_image.py) | - |
 | 905 | Sort Array By Parity | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0905_sort_array_by_parity.py) | - |
-| 977 | Squares of a Sorted Array | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0977_squares_of_a_sorted_array.py) | - |
+| 977 | Squares of a Sorted Array | Easy | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/java/0977_squares_of_a_sorted_array.java) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0977_squares_of_a_sorted_array.py) | - |
 | 1051 | Height Checker | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/1051_height_checker.py) | - |
-| 1295 | Find Numbers with Even Number of Digits | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/1295_find_numbers_with_even_numbers_of_digits.py) | - |
+| 1295 | Find Numbers with Even Number of Digits | Easy | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/java/1295_find_numbers_with_even_numbers_of_digits.java) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/1295_find_numbers_with_even_numbers_of_digits.py) | - |
 | 1299 | Replace Elements with Greatest Element on Right Side | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/1299_replace_elements_with_greatest_element_on_right_side.py) | - |
 | 1342 | Number of Steps to Reduce a Number to Zero | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/1342_number_of_steps_to_reduce_a_number_to_zero.py) | - |
 
 <!--
-| # | Title | Difficulty | - | [&check;]() | - |
+| # | Title | Difficulty | [&check;]() | - | - |
 -->
 
 </details>
