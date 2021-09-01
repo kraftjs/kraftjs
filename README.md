@@ -2,6 +2,8 @@
 ### Reading List:
 | Title | Author(s) | Domain |
 | ----- | --------- | ------ |
+| Algorithms Unlocked | Thomas Cormen | Data Structures | - |
+| The Algorithm Design Manual | Steven S. Skiena | Data Structures | - |
 | JavaScript: The Definitive Guide | David Flanagan | JavaScript |
 | TypeScript Quickly | Fain, Moiseev | TypeScript |
 | Programming with Types | Vlad Riscutia | TypeScript |
@@ -9,6 +11,7 @@
 | Learning SQL | Alan Beaulieu | SQL |
 | CSS in Depth | Keith J. Grant | CSS |
 | Web Development with Node and Express | Ethan Brown | Express.js |
+| Web Scalability for Startup Engineers | Artur Ejsmont | System Design |
 
 <!--
 | API Design Patterns | JJ Geewax | Web APIs | - |
