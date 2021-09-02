@@ -1,17 +1,17 @@
-
 ### Reading List:
-| Title | Author(s) | Domain |
-| ----- | --------- | ------ |
-| Algorithms Unlocked | Thomas Cormen | Data Structures | - |
-| The Algorithm Design Manual | Steven S. Skiena | Data Structures | - |
-| JavaScript: The Definitive Guide | David Flanagan | JavaScript |
-| TypeScript Quickly | Fain, Moiseev | TypeScript |
-| Programming with Types | Vlad Riscutia | TypeScript |
-| Testing JavaScript Applications | Lucas da Costa | Testing |
-| Learning SQL | Alan Beaulieu | SQL |
-| CSS in Depth | Keith J. Grant | CSS |
-| Web Development with Node and Express | Ethan Brown | Express.js |
-| Web Scalability for Startup Engineers | Artur Ejsmont | System Design |
+
+| Title                                 | Author(s)        | Domain          |
+| ------------------------------------- | ---------------- | --------------- | --- |
+| Algorithms Unlocked                   | Thomas Cormen    | Data Structures | -   |
+| The Algorithm Design Manual           | Steven S. Skiena | Data Structures | -   |
+| JavaScript: The Definitive Guide      | David Flanagan   | JavaScript      |
+| TypeScript Quickly                    | Fain, Moiseev    | TypeScript      |
+| Programming with Types                | Vlad Riscutia    | TypeScript      |
+| Testing JavaScript Applications       | Lucas da Costa   | Testing         |
+| Learning SQL                          | Alan Beaulieu    | SQL             |
+| CSS in Depth                          | Keith J. Grant   | CSS             |
+| Web Development with Node and Express | Ethan Brown      | Express.js      |
+| Web Scalability for Startup Engineers | Artur Ejsmont    | System Design   |
 
 <!--
 | API Design Patterns | JJ Geewax | Web APIs | - |
@@ -26,6 +26,7 @@
 -->
 
 ### LeetCode Solutions:
+
 <details>
   <summary>Toggle Solutions</summary>
   
@@ -33,9 +34,9 @@
   
 | # | Title | Difficulty | Java | Python | JavaScript |
 | :-: | ----- | :--------: | :--: | :----: | :--------: |
-| 1 | Two Sum | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0001_two_sum.py) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0001_two_sum.js) |
+| 1 | Two Sum | Easy | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/java/0001_two_sum.java) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0001_two_sum.py) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0001_two_sum.js) |
 | 2 | Add Two Numbers | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0002_add_two_numbers.py) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0002_add_two_numbers.js) |
-| 3 | Longest Substring Without Repeating Characters | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0003_longest_substring_without_repeating_characters.py) | - |
+| 3 | Longest Substring Without Repeating Characters | Medium | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/java/0003_longest_substring_without_repeating_characters.java) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0003_longest_substring_without_repeating_characters.py) | - |
 | 4 | Median of Two Sorted Arrays | Hard | - | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0004_median_of_two_sorted_arrays.js) |
 | 5 | Longest Palindromic Substring | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0005_longest_palindromic_substring.py) | - |
 | 9 | Palindrome Number | Easy | - | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0009_palindrome_number.js) |
@@ -79,7 +80,6 @@
 -->
 
 </details>
-
 
 <!--
 **kraftjs/kraftjs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
