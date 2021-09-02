@@ -38,7 +38,7 @@
 | 3 | Longest Substring Without Repeating Characters | Medium | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/java/0003_longest_substring_without_repeating_characters.java) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0003_longest_substring_without_repeating_characters.py) | - |
 | 4 | Median of Two Sorted Arrays | Hard | - | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0004_median_of_two_sorted_arrays.js) |
 | 5 | Longest Palindromic Substring | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0005_longest_palindromic_substring.py) | - |
-| 8 | String to Integer | Medium | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/java/0008_string_to_integer.java) | - | - |
+| 8 | String to Integer | Medium | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/java/0008_string_to_integer.java) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0008_string_to_integer.py) | - |
 | 9 | Palindrome Number | Easy | - | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0009_palindrome_number.js) |
 | 11 | Container With Most Water | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0011_container_with_most_water.py) | - |
 | 12 | Integer to Roman | Medium | - | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0012_integer_to_roman.js) |
