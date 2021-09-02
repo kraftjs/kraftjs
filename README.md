@@ -41,7 +41,7 @@
 | 8 | String to Integer | Medium | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/java/0008_string_to_integer.java) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0008_string_to_integer.py) | - |
 | 9 | Palindrome Number | Easy | - | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0009_palindrome_number.js) |
 | 11 | Container With Most Water | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0011_container_with_most_water.py) | - |
-| 12 | Integer to Roman | Medium | - | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0012_integer_to_roman.js) |
+| 12 | Integer to Roman | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0012_integer_to_roman.py) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0012_integer_to_roman.js) |
 | 13 | Roman to Integer | Easy | - | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0013_roman_to_integer.js) |
 | 15 | 3Sum | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0015_3sum.py) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0015_3Sum.js) |
 | 16 | 3Sum Closest | Medium | - | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0016_3Sum_closest.js) |
