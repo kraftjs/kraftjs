@@ -69,6 +69,7 @@
 | 476 | Number Complement | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0476_number_complement.py) | - |
 | 485 | Max Consecutive Ones | Easy | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/java/0485_max_consecutive_ones.java) | - | - |
 | 771 | Jewels and Stones | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0771_jewels_and_stones.py) | - |
+| 819 | Most Common Word | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0819_most_common_word.py) | - |
 | 832 | Flipping an Image | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0832_flipping_an_image.py) | - |
 | 905 | Sort Array By Parity | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0905_sort_array_by_parity.py) | - |
 | 977 | Squares of a Sorted Array | Easy | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/java/0977_squares_of_a_sorted_array.java) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0977_squares_of_a_sorted_array.py) | - |
