@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/3sum-closest/
 # O(n^2) time complexity
-# O(1) space complexity
+# O(n) space complexity for worst case python sort implementation
 def three_sum_closest(nums, target):
     nums.sort()
     diff = float('inf')
