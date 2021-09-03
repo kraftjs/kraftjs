@@ -56,6 +56,7 @@
 | 33 | Search in Rotated Sorted Array | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0033_search_in_rotated_sorted_array.py) | - |
 | 39 | Combination Sum | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0039_combination_sum.py) | - |
 | 40 | Combination Sum II | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0040_combination_sum_ii.py) | - |
+| 42 | Trapping Rain Water | Hard | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0042_trapping_rain_water.py) | - |
 | 46 | Permutations | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0046_permutations.py) | - |
 | 47 | Permutations II | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0047_permutations_ii.py) | - |
 | 48 | Rotate Image | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0048_rotate_image.py) | - |
