@@ -44,7 +44,7 @@
 | 12 | Integer to Roman | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0012_integer_to_roman.py) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0012_integer_to_roman.js) |
 | 13 | Roman to Integer | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0013_roman_to_integer.py) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0013_roman_to_integer.js) |
 | 15 | 3Sum | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0015_3sum.py) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0015_3Sum.js) |
-| 16 | 3Sum Closest | Medium | - | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0016_3Sum_closest.js) |
+| 16 | 3Sum Closest | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0016_3sum_closest.py) | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0016_3Sum_closest.js) |
 | 17 | Letter Combinations of a Phone Number | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0017_letter_combinations_of_a_phone_number.py) | - |
 | 19 | Remove Nth Node From End of List | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0019_remove_nth_node_from_end_of_list.py) | - |
 | 20 | Valid Parentheses | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0020_valid_parentheses.py) | - |
