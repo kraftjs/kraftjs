@@ -64,6 +64,7 @@
 | 94 | Binary Tree Inorder Traversal | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0094_binary_tree_inorder_traversal.py) | - |
 | 136 | Single Number | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0136_single_number.py) | - |
 | 206 | Reverse Linked List | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0206_reverse_linked_list.py) | - |
+| 273 | Integer to English Words | Hard | - | [&check;](https://github.com/kraftjs/kraftjs/blog/main/leetcode/python/0273_integer_to_english_words.py) | - |
 | 476 | Number Complement | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0476_number_complement.py) | - |
 | 485 | Max Consecutive Ones | Easy | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/java/0485_max_consecutive_ones.java) | - | - |
 | 771 | Jewels and Stones | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0771_jewels_and_stones.py) | - |
