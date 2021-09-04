@@ -51,6 +51,7 @@
 | 21 | Merge Two Sorted Lists | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0021_merge_two_sorted_lists.py) | - |
 | 22 | Generate Parentheses | Medium | - | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/javascript/0022_generate_parentheses.js) |
 | 23 | Merge k Sorted Lists | Hard | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0023_merge_k_sorted_lists.py) | - |
+| 25 | Reverse Nodes in k-Group | Hard | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0025_reverse_nodes_in_kgroup.py) | - |
 | 26 | Remove Duplicates from Sorted Array | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0026_remove_duplicates_from_sorted_array.py) | - |
 | 27 | Remove Element | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0027_remove_element.py) | - |
 | 33 | Search in Rotated Sorted Array | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0033_search_in_rotated_sorted_array.py) | - |
