@@ -64,8 +64,9 @@
 | 49 | Group Anagrams | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0049_group_anagrams.py) | - |
 | 77 | Combinations | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0077_combinations.py) | - |
 | 94 | Binary Tree Inorder Traversal | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0094_binary_tree_inorder_traversal.py) | - |
+| 98 | Validate Binary Search Tree | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0098_validate_binary_search_tree.py) | - |
 | 136 | Single Number | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0136_single_number.py) | - |
-| 138 | Copy List with Rnadom Pointer | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0138_copy_list_with_random_pointer.py) | - |
+| 138 | Copy List with Random Pointer | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0138_copy_list_with_random_pointer.py) | - |
 | 206 | Reverse Linked List | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0206_reverse_linked_list.py) | - |
 | 273 | Integer to English Words | Hard | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0273_integer_to_english_words.py) | - |
 | 387 | First Unique Character in a String | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0387_first_unique_character_in_a_string.py) | - |
