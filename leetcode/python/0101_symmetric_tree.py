@@ -19,3 +19,5 @@ def is_symmetric(root):
         check2 = is_mirrored(node1.right, node2.left)
 
         return node1.val == node2.val and check1 and check2
+
+    return is_mirrored(root, root)
