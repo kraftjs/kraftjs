@@ -70,6 +70,7 @@
 | 103 | Binary Tree Zigzag Level Order Traversal | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0103_binary_tree_zigzag_level_order_traversal.py) | - |
 | 136 | Single Number | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0136_single_number.py) | - |
 | 138 | Copy List with Random Pointer | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0138_copy_list_with_random_pointer.py) | - |
+| 200 | Number of Islands | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0200_number_of_islands.py) | - |
 | 206 | Reverse Linked List | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0206_reverse_linked_list.py) | - |
 | 273 | Integer to English Words | Hard | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0273_integer_to_english_words.py) | - |
 | 387 | First Unique Character in a String | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0387_first_unique_character_in_a_string.py) | - |
