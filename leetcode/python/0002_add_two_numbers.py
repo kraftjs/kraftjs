@@ -1,6 +1,12 @@
 # https://leetcode.com/problems/add-two-numbers/
 # O(max(n, m)) time complexity, where n and m are length of respective linked lists
 # O(max(n, m) space complexity
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+
 def add_two_numbers(l1, l2):
     dummy = curr = ListNode()
     carry = 0
@@ -16,9 +22,3 @@ def add_two_numbers(l1, l2):
     if carry > 0:
         curr.next = ListNode(carry)
     return dummy.next
-
-
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next

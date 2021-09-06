@@ -19,5 +19,5 @@ def roman_to_integer(s: str) -> int:
         else:
             total += curr
         prev = curr
-    
+
     return total

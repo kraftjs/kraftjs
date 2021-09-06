@@ -15,7 +15,7 @@ def numberToWords(self, num: int) -> str:
             9: 'Nine'
         }
         return mapping.get(num)
-    
+
     def tenLessThanTwenty(num):
         mapping = {
             10: 'Ten',
@@ -30,7 +30,7 @@ def numberToWords(self, num: int) -> str:
             19: 'Nineteen'
         }
         return mapping.get(num)
-    
+
     def ten(num):
         mapping = {
             2: 'Twenty',
@@ -43,7 +43,7 @@ def numberToWords(self, num: int) -> str:
             9: 'Ninety'
         }
         return mapping.get(num)
-    
+
     def two(num):
         if not num:
             return ''
@@ -55,7 +55,7 @@ def numberToWords(self, num: int) -> str:
             tenner = num // 10
             rest = num - tenner * 10
             return ten(tenner) + ' ' + one(rest) if rest else ten(tenner)
-    
+
     def three(num):
         hundred = num // 100
         rest = num - hundred * 100
@@ -65,15 +65,15 @@ def numberToWords(self, num: int) -> str:
             return two(rest)
         elif hundred and not rest:
             return one(hundred) + ' Hundred'
-        
+
     billion = num // 1000000000
     million = (num - billion * 1000000000) // 1000000
     thousand = (num - billion * 1000000000 - million * 1000000) // 1000
     rest = num - billion * 1000000000 - million * 1000000 - thousand * 1000
-    
+
     if not num:
         return "Zero"
-    
+
     result = ''
     if billion:
         result = three(billion) + ' Billion'
@@ -86,6 +86,5 @@ def numberToWords(self, num: int) -> str:
     if rest:
         result += ' ' if result else ''
         result += three(rest)
-    
+
     return result
-    

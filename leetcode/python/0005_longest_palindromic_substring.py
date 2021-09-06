@@ -14,6 +14,8 @@ def find_longest_palindrome(s):
     for i in range(1, len(s)):
         odd_palindrome = find_palindrome(s, i - 1, i + 1)
         even_palindrome = find_palindrome(s, i - 1, i)
-        palindrome = max(odd_palindrome, even_palindrome, key=lambda x: x[1] - x[0])
-        longest_palindrome = max(longest_palindrome, palindrome, key=lambda x: x[1] - x[0])
+        palindrome = max(odd_palindrome, even_palindrome,
+                         key=lambda x: x[1] - x[0])
+        longest_palindrome = max(
+            longest_palindrome, palindrome, key=lambda x: x[1] - x[0])
     return s[longest_palindrome[0]: longest_palindrome[1]]

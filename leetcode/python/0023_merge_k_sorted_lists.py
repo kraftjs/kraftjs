@@ -6,6 +6,12 @@
 from heapq import *
 
 
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+
 def merge_k_lists(lists):
     dummy = prev = ListNode()
     min_heap = []
@@ -20,9 +26,3 @@ def merge_k_lists(lists):
         if node is not None:
             heappush(min_heap, (node.val, i, node))
     return dummy.next
-
-
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
