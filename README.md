@@ -67,7 +67,7 @@
 | 98 | Validate Binary Search Tree | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0098_validate_binary_search_tree.py) | - |
 | 101 | Symmetric Tree | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0101_symmetric_tree.py) | - |
 | 102 | Binary Tree Level Order Traversal | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0102_binary_tree_level_order_traversal.py) | - |
-| 103 | Binary Tree Zigzag Level Order Traversal | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0102_binary_tree_zigzag_level_order_traversal.py) | - |
+| 103 | Binary Tree Zigzag Level Order Traversal | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0103_binary_tree_zigzag_level_order_traversal.py) | - |
 | 136 | Single Number | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0136_single_number.py) | - |
 | 138 | Copy List with Random Pointer | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0138_copy_list_with_random_pointer.py) | - |
 | 206 | Reverse Linked List | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0206_reverse_linked_list.py) | - |
