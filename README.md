@@ -73,6 +73,7 @@
 | 200 | Number of Islands | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0200_number_of_islands.py) | - |
 | 206 | Reverse Linked List | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0206_reverse_linked_list.py) | - |
 | 207 | Course Schedule | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0207_course_schedule.py) | - |
+| 210 | Course Schedule II | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0210_course_schedule_ii.py) | - |
 | 273 | Integer to English Words | Hard | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0273_integer_to_english_words.py) | - |
 | 387 | First Unique Character in a String | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0387_first_unique_character_in_a_string.py) | - |
 | 476 | Number Complement | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0476_number_complement.py) | - |
