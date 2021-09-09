@@ -1,6 +1,7 @@
 # https://leetcode.com/problems/word-ladder/solution/
 # O(M^2 * N) time complexity
-# O(M * N) space complexity
+# O(M * N) space complexity,
+# where M is the length of words and N is the number of words
 import string
 import collections
 
@@ -32,5 +33,5 @@ class Solution:
         neighbors = []
         for i, _ in enumerate(word):
             for letter in string.ascii_lowercase:
-                neighbors.append(word[:i] + letter + word[i+1:])
+                neighbors.append(word[:i] + letter + word[i + 1:])
         return neighbors
