@@ -68,6 +68,7 @@
 | 101 | Symmetric Tree | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0101_symmetric_tree.py) | - |
 | 102 | Binary Tree Level Order Traversal | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0102_binary_tree_level_order_traversal.py) | - |
 | 103 | Binary Tree Zigzag Level Order Traversal | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0103_binary_tree_zigzag_level_order_traversal.py) | - |
+| 127 | Word Ladder | Hard | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0127_word_ladder.py) | - |
 | 136 | Single Number | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0136_single_number.py) | - |
 | 138 | Copy List with Random Pointer | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0138_copy_list_with_random_pointer.py) | - |
 | 200 | Number of Islands | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0200_number_of_islands.py) | - |
