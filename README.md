@@ -68,6 +68,7 @@
 | 101 | Symmetric Tree | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0101_symmetric_tree.py) | - |
 | 102 | Binary Tree Level Order Traversal | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0102_binary_tree_level_order_traversal.py) | - |
 | 103 | Binary Tree Zigzag Level Order Traversal | Medium | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0103_binary_tree_zigzag_level_order_traversal.py) | - |
+| 124 | Binary Tree Maximum Path Sum | Hard | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0124_binary_tree_maximum_path_sum.py) | - |
 | 126 | Word Ladder II | Hard | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0126_word_ladder_ii.py) | - |
 | 127 | Word Ladder | Hard | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0127_word_ladder.py) | - |
 | 136 | Single Number | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/0136_single_number.py) | - |
