@@ -25,6 +25,7 @@
 | Web Components in Action | Benjamin Farrell | Web Components | - |
 -->
 
+<!--
 ### LeetCode Solutions:
 <details>
   <summary>Toggle Solutions</summary>
@@ -93,12 +94,10 @@
 | 1299 | Replace Elements with Greatest Element on Right Side | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/1299_replace_elements_with_greatest_element_on_right_side.py) | - |
 | 1342 | Number of Steps to Reduce a Number to Zero | Easy | - | [&check;](https://github.com/kraftjs/kraftjs/blob/main/leetcode/python/1342_number_of_steps_to_reduce_a_number_to_zero.py) | - |
 
-<!--
 | # | Title | Difficulty | [&check;]() | - | - |
--->
 
 </details>
-
+-->
 
 <!--
 **kraftjs/kraftjs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
