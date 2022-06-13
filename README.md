@@ -1,4 +1,5 @@
 
+<!--
 ### Reading List:
 | Title | Author(s) | Domain |
 | ----- | --------- | ------ |
@@ -13,7 +14,7 @@
 | Web Development with Node and Express | Ethan Brown | Express.js |
 | Web Scalability for Startup Engineers | Artur Ejsmont | System Design |
 
-<!--
+
 | API Design Patterns | JJ Geewax | Web APIs | - |
 | AWS Cookbook | Culkin, Zazon, Ferguson | AWS | - |
 | Bootstrapping Microservices with Docker, Kubernetes, and Terraform | Ashley Davis | Microservices | - |
